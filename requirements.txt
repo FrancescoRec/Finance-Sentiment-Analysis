@@ -1,6 +1,5 @@
 streamlit
 tweepy
-vaderSentiment
 requests
 beautifulsoup4
 scikit-learn

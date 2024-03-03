@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 from bs4 import BeautifulSoup
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -76,11 +75,6 @@ def scrape_yahoo_finance_news():
         print(response.content)
         print("Failed to fetch data from Yahoo Finance")
 
-def analyze_sentiment(headline):
-    analyzer = SentimentIntensityAnalyzer()
-    sentiment_score = analyzer.polarity_scores(headline)
-    return sentiment_score
-
 
 header = st.container()
 training = st.container()
@@ -147,7 +141,6 @@ with yahoo_test:
             
             if news_headlines:
                 for headline in news_headlines[6:6+selected_value]:
-                    sentiment_score = analyze_sentiment(headline)
                     list_of_headlines.append(headline)
                 
                 X_test_tfidf = tfidf_vectorizer.transform(list_of_headlines)
