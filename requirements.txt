@@ -2,7 +2,6 @@ streamlit
 tweepy
 vaderSentiment
 requests
-time
 beautifulsoup4
 sklearn
 bs4
