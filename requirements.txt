@@ -4,3 +4,4 @@ vaderSentiment
 requests
 time
 beautifulsoup4
+sklearn
