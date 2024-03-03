@@ -1,2 +1,6 @@
 streamlit
-datasets
+tweepy
+vaderSentiment
+requests
+time
+beautifulsoup4
