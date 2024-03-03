@@ -1,4 +1,4 @@
-from datasets import load_dataset
+import datasets
 import streamlit as st
 
 header = st.container()
@@ -13,7 +13,7 @@ with header:
 with dataset:
     st.header("Dataset we are using")
     st.text("Reviews of starbucks (francesco)")
-    financial_phrasebank = load_dataset("financial_phrasebank", "sentences_50agree")
+    financial_phrasebank = datasets.load_dataset("financial_phrasebank", "sentences_50agree")
     st.write(financial_phrasebank)
 
 
