@@ -3,7 +3,7 @@ tweepy
 vaderSentiment
 requests
 beautifulsoup4
-sklearn
+scikit-learn
 bs4
 vaderSentiment.vaderSentiment
 pandas
