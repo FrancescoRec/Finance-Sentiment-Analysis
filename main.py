@@ -14,6 +14,9 @@ from nltk.stem import WordNetLemmatizer
 import nltk
 import matplotlib.pyplot as plt
 from collections import Counter
+
+nltk.download('punkt')
+nltk.download('stopwords')
 nltk.download('wordnet')
 
 def convert_to_lower(text):
