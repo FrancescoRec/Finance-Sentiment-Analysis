@@ -5,3 +5,11 @@ requests
 time
 beautifulsoup4
 sklearn
+bs4
+vaderSentiment.vaderSentiment
+pandas
+datasets
+string
+nltk
+matplotlib.pyplot
+collections
