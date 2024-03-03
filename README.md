@@ -9,4 +9,4 @@ We meticulously prepared our dataset, which comprised financial news articles an
 
 #### The user can play we the app and scrape the news of the day of Yahoo Finance and the app will return the percentage of good, bad and neutral news.
 
-
+![Yahoo Logo](yahoo_logo.png)
